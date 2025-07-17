@@ -26,7 +26,7 @@
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 100px 50px;
 
 }
 
@@ -66,20 +66,104 @@
     border-radius: 20px;
 }
 
+.about2 {
+    text-align: center;
+    background-color: #d8d2ff;
+    border-radius: 10px;
+    background-position-x: 19;
+    background-position-y: 1249;
+}
+
+.about2-items {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
 .section2-title {
     font-size: 25px;
     font-weight: 500;
-    text-align: center;
     color: black;
 }
+
+.item-description {
+    font-size: smaller;
+    font-weight: 300;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #3B49FF;
+}
+
+.about3 {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.about3-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.about3-all {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about3-card {
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+
+.about3-paragraph {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #777;
+  margin: 0;
+}
+
 
 /* Header */
 .header {
     background-image: url('../Assets/Hero-bg.png');
     background-position: top center;
-
-
-
 }
 
 /* Nav Styles */
@@ -112,4 +196,8 @@ nav ul li {
 
 .banner-content {
     text-align: center;
+}
+
+.s-title{
+    font-size: xx-large;
 }
